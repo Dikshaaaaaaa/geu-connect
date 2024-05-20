@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/chat-forum" element={<ChatForum />} />
           <Route path="/placement-prep" element={<PlacementPrep/>}/>
+          <Route path="/chat-forum/placement-prep" element={<PlacementPrep/>}/>
         </Routes>
 
     </Router>
